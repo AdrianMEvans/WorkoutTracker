@@ -1,7 +1,7 @@
 {
   "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "",
+  "description": "Workout Tracker",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
+    "mongodb": "^3.6.8",
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianMEvans/WorkoutTracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdrianMEvans/WorkoutTracker/issues"
+  },
+  "homepage": "https://github.com/AdrianMEvans/WorkoutTracker#readme"
 }

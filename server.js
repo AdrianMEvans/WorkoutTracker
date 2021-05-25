@@ -17,7 +17,11 @@ app.use(express.static("public"));
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/workout",
   { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true }
-);
+).then(() => {
+  console.log('Connected to database!')
+}).catch((e) => {
+  console.log('Connection Failed!!!', (e))
+});
 
 app.use(require("./routes/apiRoutes.js"));
 app.use(require("./routes/htmlRoutes.js"));

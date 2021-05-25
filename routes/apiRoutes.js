@@ -12,8 +12,8 @@ app.get('/api/workouts', (req, res) => {
       },
     },
   ])
-    .then((workoutDBs) => {
-      res.json(workoutDBs);
+    .then((WorkoutDb) => {
+      res.json(WorkoutDb);
     })
     .catch((err) => {
       res.json(err);
@@ -32,9 +32,9 @@ app.get('/api/workouts/range', (req, res) => {
   ])
     .sort({ _id: -1 })
     .limit(7)
-    .then((workoutDBs) => {
-      console.log(workoutDBs);
-      res.json(workoutDBs);
+    .then((WorkoutDb) => {
+      console.log(WorkoutDb);
+      res.json(WorkoutDb);
     })
     .catch((err) => {
       res.json(err);

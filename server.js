@@ -20,11 +20,14 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/workout",
   { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true }
 ).then(() => {
+  app.listen(PORT, () => {
+    console.log(`App running ===> visit at port ${PORT}!`);
+  });
   console.log('Connected to database!')
 }).catch((e) => {
   console.log('Connection Failed!!!', (e))
 });
 
-app.listen(PORT, () => {
-  console.log(`App running ===> visit at port ${PORT}!`);
-});
+// app.listen(PORT, () => {
+//   console.log(`App running ===> visit at port ${PORT}!`);
+// });

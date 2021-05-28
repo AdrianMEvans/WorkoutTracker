@@ -90,7 +90,7 @@ User lands on the Landing page. If no current workout exists user will have opti
   ![Landing Page](https://github.com/AdrianMEvans/WorkoutTracker/blob/main/Assets/LandingScreen.png?raw=true)
 
 
-2. ## Continue or Add new Workout Page 
+2. ### Continue or Add new Workout Page 
      Page displays if existing workout exists. User can continue or start new workout.\
      \
      ![Continue or Add new Workout Page](https://github.com/AdrianMEvans/WorkoutTracker/blob/main/Assets/ContinueOrNewWorkout.png?raw=true)

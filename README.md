@@ -66,17 +66,17 @@ The application makes use of the following technologies:
 
 
 ## Story
-As a user I want a starter page that when the page loads, I have the option to create a new workout or continue with my last workout.\
+As a user I want a starter page that when the page loads, I have the option to create a new workout or continue with my last workout.
 
-As a user I should be able to:\
-\
-  * Add exercises to the most recent workout plan.\
+As a user I should be able to:
 
-  * Add new exercises to a new workout plan.\
+  * Add exercises to the most recent workout plan.
 
-  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.\
+  * Add new exercises to a new workout plan.
 
-  * View the total duration of each workout from the past seven workouts on the `stats` page.\
+  * View the combined weight of multiple exercises from the past seven workouts on the stats page.
+
+  * View the total duration of each workout from the past seven workouts on the stats page.
 
 
 ## Instructions

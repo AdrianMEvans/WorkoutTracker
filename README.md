@@ -80,22 +80,40 @@ As a user I should be able to:\
 
 
 ## Instructions
-User lands on the index page. If user is not registered then he can sign up. If he is registered he can log in. Once a new user is signed up he will be directed to the log in page. Once he logs in he will be directed to the Playdates page where he will be shown a card with a potential play date. If the user does not like the prospect he can swipe right. If he likes the prospect he can swipe right. The app will then send an email to the prospect with the user's dog and e-mail address. The user can then carry on looking for more prospects or he can log out. Once logged out it will clear the session and he will be redirected to the index page.
+User lands on the Landing page. If no current workout exists user will have option to add workout. If workout has already been logged then user will have option to add workout or continue with existing workout. User will be able to add more excersises or complete the workout after each excersise has been logged. User will have access to a stats screen where data of logged workouts and excersises can be viewed. 
 
 ## Screenshots
 
-1. ### Index Page 
-  * ![Index Page](https://github.com/marcojansen-gmx/Project2-Who-let-the-dogs-out-/blob/main/public/ScreenShots/IndexPageScreenshot.png?raw=true)
-2. ### Contact Page 
-  * ![Contact Page](https://github.com/marcojansen-gmx/Project2-Who-let-the-dogs-out-/blob/main/public/ScreenShots/ContactScreenShot.png?raw=true)
-3. ### Signup Page  
-  * ![Signup Page](https://github.com/marcojansen-gmx/Project2-Who-let-the-dogs-out-/blob/main/public/ScreenShots/SignupScreenShot.png?raw=true)
-4. ### Login Page 
-  * ![Login Page](https://github.com/marcojansen-gmx/Project2-Who-let-the-dogs-out-/blob/main/public/ScreenShots/LoginScreenshot.png?raw=true)
-5. ### Playdates Page 
-  * ![PlayDates Page](https://github.com/marcojansen-gmx/Project2-Who-let-the-dogs-out-/blob/main/public/ScreenShots/PlayCardScreenshot.png?raw=true)
-6. ### E-mail Sent 
-  * ![Email Sent](https://github.com/marcojansen-gmx/Project2-Who-let-the-dogs-out-/blob/main/public/ScreenShots/EmailScreenshot.png?raw=true)
+1. ### Landing Page 
+     Page displays at launching the App if no existing workout exists.\
+     \
+  ![Landing Page](https://github.com/AdrianMEvans/WorkoutTracker/blob/main/Assets/LandingScreen.png?raw=true)
+
+
+2. ## Continue or Add new Workout Page 
+     Page displays if existing workout exists. User can continue or start new workout.\
+     \
+     ![Continue or Add new Workout Page](https://github.com/AdrianMEvans/WorkoutTracker/blob/main/Assets/ContinueOrNewWorkout.png?raw=true)
+
+3. ### Add Cardio Page 
+     Page where cardio excercises are added.\
+     \
+  ![Add Cardio Page](https://github.com/AdrianMEvans/WorkoutTracker/blob/main/Assets/AddCardio.png?raw=true)
+
+4. ### Add Resistance Training Page  
+     This is where resistance training is logged.\
+     \
+  ![Add Resistance Training Page](https://github.com/AdrianMEvans/WorkoutTracker/blob/main/Assets/AddResistance.png?raw=true)
+
+5. ### Stats Page 
+     This page displays that stats from the excersises that have been logged.\
+     \
+  ![Stats Page](https://github.com/AdrianMEvans/WorkoutTracker/blob/main/Assets/DashboardScreen.png?raw=true)
+
+6. ### MongoDBAtlas Page 
+     This shows the documents being created when excersises are logged.
+  ![MongoDBAtlas Page](https://github.com/AdrianMEvans/WorkoutTracker/blob/main/Assets/MongoDBAtlasDocumentsCreated.png?raw=true)
+
 
 ## Credits
 :bellhop_bell: 
